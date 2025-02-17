@@ -1,0 +1,2 @@
+# wythoff
+Wythoff's Game
