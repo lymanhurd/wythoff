@@ -1,0 +1,57 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Mathematics of Games: MIT Splash March 2025\n",
+    "## Lyman's Notebook\n",
+    "This notebook will explore various mathematical concepts and their applications in different types of games."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Importing necessary libraries\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Games of Chance\n",
+    "Games of chance involve randomness and probability. Examples include rolling dice, spinning a roulette wheel, or drawing cards from a shuffled deck."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Simulating a dice roll\n",
+    "dice_rolls = np.random.randint(1, 7, 1000)\n",
+    "plt.hist(dice_rolls, bins=np.arange(1, 8)-0.5, edgecolor='black')\n",
+    "plt.xlabel('Dice Value')\n",
+    "plt.ylabel('Frequency')\n",
+    "plt.title('Dice Roll Simulation')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Games of Skill\n",
+    "Games of skill require strategy and decision-making. Examples include chess, poker, and video games."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source":
