@@ -6,4 +6,4 @@ Jupyer notebook.  Note that any changes made in this environment will not be per
 you should copy elsewhere anything you intend to keep.
 
 To start click here:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lymanhurd/wythoff/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lymanhurd/wythoff/HEAD?labpath=wythoff.ipynb)
